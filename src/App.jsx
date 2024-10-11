@@ -9,6 +9,7 @@ import Login from "./pages/Auth/Login";
 import Register from "./pages/Auth/Register";
 import Otp from "./pages/Auth/Otp";
 import ForgetPassword from "./pages/Auth/ForgetPassword";
+import ResetPassword from "./pages/Auth/ResetPassword";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/otp" element={<Otp />} />
         <Route path="/forget-password" element={<ForgetPassword />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
