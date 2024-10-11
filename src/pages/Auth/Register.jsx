@@ -7,13 +7,12 @@ function Register() {
   const [success, setSuccess] = useState(null);
 
   return (
-    <div className="py-16 m-3 p-3">
+    <div className="py-16 m-6 p-3">
       <div className="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
         <div
-          className="hidden lg:block lg:w-1/2 bg-cover"
+          className="hidden lg:block lg:w-1/2 bg-cover h-full"
           style={{
-            backgroundImage:
-              "url('https://t3.ftcdn.net/jpg/02/92/90/56/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg')",
+            backgroundImage: "url('/driving-yellow.jpg')",
           }}
         ></div>
         <div className="w-full p-8 lg:w-1/2">
