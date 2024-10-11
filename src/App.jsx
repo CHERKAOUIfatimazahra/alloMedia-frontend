@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Login from "./pages/Auth/Login";
 import Register from "./pages/Auth/Register";
+import Otp from "./pages/Auth/Otp";
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        
+        <Route path="/otp" element={<Otp />} />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
