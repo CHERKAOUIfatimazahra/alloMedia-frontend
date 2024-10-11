@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Login from "./pages/Auth/Login";
 import Register from "./pages/Auth/Register";
 import Otp from "./pages/Auth/Otp";
+import ForgetPassword from "./pages/Auth/ForgetPassword";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/otp" element={<Otp />} />
+        <Route path="/forget-password" element={<ForgetPassword />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
